@@ -4,12 +4,12 @@
     I have lived in New Zealand, Australia, and the United States of America
   description:
     <p>I'm Kiwi, despite having left New Zealand over a decade ago and only
-    visiting once. I was born in Auckland, New Zealand. I don't have too many
-    memories of the seven or so years I lived in New Zealand, but I distinctly
-    recall wandering around a large primary school, because I was lost. I told a
-    teacher that I was from room 'one-one.' She thought I was from room one,
-    where the big sixth graders were. I was actually from room eleven, but the
-    teacher didn't understand.</p>
+    visiting once since then. I was born in Auckland, New Zealand. I don't have
+    too many memories of the seven or so years I lived in New Zealand, but I
+    distinctly recall wandering around a large primary school, because I was
+    lost. I told a teacher that I was from room 'one-one.' She thought I was
+    from room one, where the big sixth graders were. I was actually from room
+    eleven, but the teacher didn't understand.</p>
 
     <p>My grandparents' backyard had feijoa fruits. I missed and still miss those
     the most after leaving New Zealand for Australia. For the first few months
@@ -80,13 +80,8 @@
     interesting activity that forced us to use a small area effectively. Now,
     I often read the Real Estate section of the Wall Street Journal to see how
     developers or architects change their styles depending on the market.</p>
-- id: bio5
-  longtitle: W
-  title: W
-  description: >
-    Hello
 - id: website
-  longtitle: I made this website using Ruby's Middleman and GitHub Pages
+  longtitle: Website was made using Ruby's Middleman and GitHub Pages
   title: About This Website
   description: >
     <p>I decided to make a personal website when I started doing more coding or
@@ -101,3 +96,13 @@
     <p>I made this website using Ruby's Middleman, because I am familiar with
     Ruby on Rails. It is very convenient to use helpers and loops in a website
     like this. I host it on GitHub pages, because it is free.</p>
+- id: search
+  longtitle: I am exploring a career in real estate, tech, or both
+  title: My Career Goals
+  description: >
+    <p>I like to work projects, where there is a beginning and end that I can
+    keep in my mind. At school, I enjoy working through Computer Science
+    homework, despite the pain of debugging, because I experience a feeling of
+    accomplishment I cannot get from finishing a set of math problems. Because
+    of this, I have been thinking about careers in consulting, real estate, and
+    technology.</p>
