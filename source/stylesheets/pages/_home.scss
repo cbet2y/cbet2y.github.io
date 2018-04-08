@@ -1,9 +1,9 @@
 #home {
   height: 100vh;
   width: 100%;
-  color: white;
+  color: $font-color;
   #left {
-    background-color: $dark-green;
+    background-color: $body-bg;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,7 +21,7 @@
     }
   }
   #right {
-    background-color: $dark-green;
+    background-color: $body-bg;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,7 +42,7 @@
 }
 
 a {
-  color: white;
+  color: $font-color;
 }
 a:hover {
   text-decoration: none;
@@ -50,7 +50,7 @@ a:hover {
 }
 a:focus {
   text-decoration: none;
-  color: white;
+  color: $font-color;
 }
 
 @media only screen and (max-width: 480px) {
