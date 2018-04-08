@@ -1,0 +1,82 @@
+#home {
+  height: 100vh;
+  width: 100%;
+  color: white;
+  #left {
+    background-color: $dark-green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #left-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .profile {
+      border-radius: 50%;
+      width: 7em;
+      height: 7em;
+      background-image: image-url("Headshot.jpg");
+      background-size: cover;
+    }
+  }
+  #right {
+    background-color: $dark-green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    h4 {
+      font-weight: bold;
+    }
+    h6 {
+      margin: 1em 0;
+    }
+  }
+  #right-info {
+    div {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
+
+a {
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: $gray;
+}
+a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 480px) {
+  #left {
+    align-items: center;
+    padding: 2em;
+  }
+  #left-info {
+    align-items: center;
+  }
+  #right {
+    padding: 2em;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  #left {
+    align-items: flex-end;
+    padding-right: 50px;
+    height: 100%;
+  }
+  #left-info {
+    align-items: flex-end;
+  }
+  #right {
+    padding-left: 50px;
+  }
+}

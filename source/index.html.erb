@@ -1,0 +1,35 @@
+---
+title: Richy Chen - An Aspiring Real Estate Developer
+---
+
+<div id="home">
+  <div id="left" class="col-xs-12 col-md-5">
+    <div id="left-info">
+      <div class="profile"></div>
+      <h2>Richy Chen</h2>
+      <p>Claremont, CA</p>
+      <div id="links">
+        <a href="mailto:richychn@hotmail.com" target="_blank"><i class="fas fa-envelope fa-lg"></i></a>
+        <a href="https://github.com/richychn" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+        <a href="http://www.linkedin.com/in/richychen" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+      </div>
+    </div>
+  </div>
+  <div id="right" class="col-xs-12 col-md-7">
+    <div id="right-info">
+      <h4>Bio</h4>
+      <% data.bio.each do |bio| %>
+        <a href="#<%= bio.id %>" data-toggle="modal"><h6><%= bio.longtitle %></h6></a>
+      <% end %>
+      <h4>Projects</h4>
+      <% data.projects.each do |proj| %>
+        <a href="#<%= proj.id %>" data-toggle="modal"><h6><%= proj.longtitle %></h6></a>
+      <% end %>
+      <h4>Experiences</h4>
+      <% data.experiences.each do |exp| %>
+        <a href="#<%= exp.id %>" data-toggle="modal"><h6><%= exp.longtitle %></h6></a>
+      <% end %>
+    </div>
+  </div>
+</div>
+<%= partial(:modal) %>

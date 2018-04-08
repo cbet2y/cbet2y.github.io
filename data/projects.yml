@@ -1,0 +1,26 @@
+- id: sas
+  longtitle: >
+    My friends and I tested a method of translating SAS to Python
+  title: Code Translation - SAS to Python
+  description: >
+    <p>Four of my friends and I embarked on a project to find and test a method
+    for translating SAS code into Python. This was interesting because it helped
+    us understand programming languages more and also because older companies
+    today use SAS but want to translate it to the more modern Python.</p>
+
+    <p>We discovered Antlr, which is a parsing tool that creates trees from
+    strings of code. To use Antlr, we simply had to write a dictionary for Antlr
+    to use. Therefore, we tested translating a for loop from Python to SAS by
+    writing "expression" definitions for each part of the loop and letting Antlr
+    create our tree.</p>
+- id: guitwise
+  longtitle: >
+    At LeWagon, my group created an online forum for musicians
+  title: >
+    Guitwise: A Community of Guitarists Learning Together
+  description: >
+    Guitwise is an online forum for musicians to share their learning and share
+    practicing techniques. This was a final project for a web development
+    bootcamp. I worked with Mark K. and Filipe A. to use Rails to create the
+    web application.
+  link: https://guitwise.com
