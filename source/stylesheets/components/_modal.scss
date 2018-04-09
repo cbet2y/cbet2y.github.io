@@ -13,3 +13,25 @@
 .clickable {
   cursor: pointer;
 }
+
+.pmodal-header {
+}
+
+.pmodal-body {
+  padding-top: 0;
+}
+
+.pmodal-content {
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+}
+
+@media (min-width: 768px) {
+  .pmodal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%) !important;
+  }
+}
